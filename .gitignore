@@ -1,0 +1,9 @@
+~$*
+*.xls*
+.venv*/
+.vf/
+.vscode/
+*.code-workspace
+__pycache__/
+*.egg-info/
+pip-wheel-metadata/

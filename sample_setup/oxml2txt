@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+function oxml2txt {
+    if [ -z "$GIT_OXMLTOTXT" ]; then 
+        :
+    else 
+        source "$GIT_OXMLTOTXT/activate"
+    fi
+   python -m oxmltotxt.oxmltotxt $@
+}
+
+oxml2txt $@
