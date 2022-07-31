@@ -6,11 +6,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "oxmltotxt"
-version = "0.0.1"
+version = "0.0.2"
 description = "A simple tool to extract text from Open XML format (.docx/.xlsx/.pptx). The tool is meant to be used in combination with git to facilitate the version control of Open XML files."
 readme = "README.md"
 authors = [{ name = "Michael von den Driesch", email = "mdriesch@web.de" }]
-license = { file = "LICENSE" }
+license = { text = "MIT"}
 classifiers=[
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.7",
@@ -46,7 +46,7 @@ dev = [
 ]
 
 [tool.bumpver]
-current_version = "0.0.1"
+current_version = "0.0.2"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message  = "Bump version {old_version} -> {new_version}"
 commit          = true
